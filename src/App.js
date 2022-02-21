@@ -9,10 +9,6 @@ function App() {
   const [movies, setMovies] = useState(null)
   const [search, setSearch] = useState('')
 
-  // useEffect(() => {
-  //   handleSearch()
-  // }, [search])
-
   const handleSearch = () => {
     getMovies(search).then((data) => {
       const searchMovies = data.Search
