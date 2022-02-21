@@ -1,5 +1,5 @@
 import './index.css'
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Movies from './components/Movies';
 import { getMovies } from './api'
 import { BsSearch } from 'react-icons/bs'
