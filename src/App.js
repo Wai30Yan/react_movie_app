@@ -12,7 +12,6 @@ function App() {
   const handleSearch = () => {
     getMovies(search).then((data) => {
       const searchMovies = data.Search
-      console.log(searchMovies)
       setMovies(searchMovies)
     })
   }
